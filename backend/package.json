@@ -1,0 +1,35 @@
+{
+  "name": "swiftbinder",
+  "version": "1.0.0",
+  "description": "A web app for large file storage, transfer, and server hosting. Designed for students and IT professionals seeking a reliable platform to host servers and easily manage large data transfers.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "file-storage",
+    "file-transfer",
+    "large-files",
+    "server-hosting",
+    "web-app",
+    "data-storage",
+    "file-sharing",
+    "cloud-hosting",
+    "IT",
+    "student-tools",
+    "server-management",
+    "data-transfer"
+  ],
+  "author": "D, N, I, J",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "postgres": "^3.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
